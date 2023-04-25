@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCloud</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href=" ">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;800&family=Poppins:wght@500&display=swap"
+        rel="stylesheet">
+    <script>
+
+        tailwind.config = {
+            theme: {
+                screens: {
+
+                    'md': '769px',
+                    'lg': '1160px',
+
+                },
+            }
+        }
+
+
+
+
+ function showText()
+    {
+        var hidbtn=document.getElementById('hidbtn')
+        hidbtn.classList.toggle("flex")
+        
+    }
+
+    
+
+    </script>
+
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="flex w-full h-11 justify-between items-center fixed top-0 backdrop-blur-md bg-white/60 ">
+            <svg width="90" height="31" xmlns="http://www.w3.org/2000/svg"
+                class="apple-icloud-logo ml-4 hover:cursor-pointer" aria-hidden="true">
+                <g fill="none" fill-rule="nonzero">
+                    <path
+                        d="M77.005 23.215c1.568 0 2.767-.779 3.382-2.06h.061V23H83V8.204h-2.552v5.793h-.061c-.615-1.302-1.855-2.092-3.392-2.092-2.726 0-4.479 2.143-4.479 5.65v.01c0 3.497 1.742 5.65 4.489 5.65Zm.768-2.153c-1.64 0-2.654-1.333-2.654-3.497v-.01c0-2.163 1.025-3.496 2.654-3.496 1.568 0 2.675 1.374 2.675 3.496v.01c0 2.133-1.096 3.497-2.675 3.497Zm-13.05 2.153c1.64 0 2.757-.758 3.32-1.917h.052V23h2.552V12.13h-2.552v6.297c0 1.579-.933 2.635-2.398 2.635-1.455 0-2.173-.872-2.173-2.41v-6.521h-2.552v7.024c0 2.522 1.363 4.06 3.751 4.06Zm-10.826 0c3.187 0 5.257-2.122 5.257-5.65v-.02c0-3.507-2.1-5.64-5.267-5.64-3.157 0-5.248 2.154-5.248 5.64v.02c0 3.518 2.06 5.65 5.258 5.65Zm.01-2.06c-1.63 0-2.665-1.303-2.665-3.59v-.02c0-2.256 1.056-3.568 2.645-3.568 1.619 0 2.664 1.302 2.664 3.568v.02c0 2.277-1.035 3.59-2.644 3.59ZM44.137 23h2.55V8.204h-2.55V23Zm-8.357.256c3.402 0 5.913-2.102 6.292-5.137l.02-.102H39.5l-.031.102c-.482 1.825-1.804 2.84-3.69 2.84-2.572 0-4.232-2.07-4.232-5.362v-.01c0-3.282 1.65-5.343 4.233-5.343 1.926 0 3.228 1.056 3.658 2.748l.051.195h2.593l-.01-.103c-.39-3.014-2.89-5.137-6.292-5.137-4.243 0-6.938 2.912-6.938 7.64v.01c0 4.727 2.685 7.66 6.938 7.66ZM25.424 10.572a1.4 1.4 0 1 0 0-2.8c-.799 0-1.424.626-1.424 1.406 0 .759.625 1.394 1.424 1.394ZM24.144 23h2.551V12.13h-2.552V23Z"
+                        fill="#1D1D1F"></path>
+                    <path
+                        d="M12.9 7.598c.608-.737 1.04-1.74 1.04-2.755 0-.14-.013-.28-.038-.394-.99.038-2.183.66-2.893 1.498-.559.635-1.079 1.65-1.079 2.666 0 .153.026.305.038.356.064.012.165.025.267.025.888 0 2.004-.597 2.664-1.396Zm.697 1.612c-1.484 0-2.69.901-3.464.901-.825 0-1.903-.85-3.197-.85C4.486 9.26 2 11.292 2 15.113c0 2.387.914 4.9 2.056 6.526.977 1.37 1.827 2.5 3.057 2.5 1.218 0 1.751-.812 3.261-.812 1.536 0 1.878.787 3.223.787 1.332 0 2.22-1.218 3.058-2.425.939-1.383 1.332-2.729 1.345-2.793-.076-.025-2.626-1.066-2.626-3.986 0-2.526 2.004-3.656 2.118-3.745-1.32-1.904-3.337-1.955-3.895-1.955Z"
+                        fill="#1D1D1F" opacity=".569"></path>
+                </g>
+            </svg>
+            <div class="relative">
+                <button id="hidbtn" class="absolute z-10 text-blue-700 right-0 mt-6 w-56 h-10 mr-1 hover:bg-gray-200 hover:border-4 border-white hidbtn  items-center shadow-2xl rounded-2xl text-base bg-white"><svg viewBox="0 0 268.0201416015625 158.116943359375" version="1.1" xmlns="http://www.w3.org/2000/svg" class="symbol-icon layout-box fill-blue-700" aria-hidden="true" style="height: 24.6847px; width: 41.8425px;"><g transform="matrix(1 0 0 1 75.46503906249995 114.2884521484375)"><path d="M58.5449 14.5508C85.791 14.5508 108.35-8.05664 108.35-35.2539C108.35-62.5 85.7422-85.0586 58.4961-85.0586C31.2988-85.0586 8.74023-62.5 8.74023-35.2539C8.74023-8.05664 31.3477 14.5508 58.5449 14.5508ZM58.5449 6.25C35.498 6.25 17.0898-12.207 17.0898-35.2539C17.0898-58.3008 35.4492-76.7578 58.4961-76.7578C81.543-76.7578 100-58.3008 100.049-35.2539C100.098-12.207 81.5918 6.25 58.5449 6.25ZM57.5195-25.1465C59.9609-25.1465 61.4746-26.709 61.4746-28.6133L61.4746-29.1992C61.4746-31.9336 63.0371-33.6914 66.4551-35.9375C71.1914-39.0625 74.5605-41.8945 74.5605-47.7539C74.5605-55.8594 67.334-60.2539 59.0332-60.2539C50.6348-60.2539 45.1172-56.25 43.7988-51.7578C43.5547-50.9766 43.3594-50.1465 43.3594-49.3652C43.3594-47.168 45.1172-45.9961 46.7285-45.9961C49.5117-45.9961 49.9512-47.4609 51.5137-49.3164C53.125-52.002 55.4688-53.6133 58.7402-53.6133C63.1836-53.6133 66.0645-51.0742 66.0645-47.3633C66.0645-44.043 64.0137-42.4316 59.7656-39.4531C56.25-37.0117 53.6133-34.4238 53.6133-29.6387L53.6133-29.0039C53.6133-26.4648 55.0293-25.1465 57.5195-25.1465ZM57.4219-10.5957C60.2539-10.5957 62.6953-12.8418 62.6953-15.6738C62.6953-18.5059 60.3027-20.752 57.4219-20.752C54.541-20.752 52.1484-18.457 52.1484-15.6738C52.1484-12.8906 54.5898-10.5957 57.4219-10.5957Z"></path></g></svg>iCloud User Guide
+                     <svg 
+                          viewBox="0 0 268.0201416015625 158.116943359375" version="1.1" 
+                        xmlns="http://www.w3.org/2000/svg" class="cloudos-menu-item-opens-in-new-tab layout-box fill-blue-700"
+                        aria-hidden="true" style="height: 20.1966px; width: 34.2348px;" >
+                        <g transform="matrix(1 0 0 1 85.49510009765618 114.2884521484375)">
+                            <path
+                                d="M84.5703-17.334L84.5215-66.4551C84.5215-69.2383 82.7148-71.1914 79.7852-71.1914L30.6641-71.1914C27.9297-71.1914 26.0742-69.0918 26.0742-66.748C26.0742-64.4043 28.1738-62.4023 30.4688-62.4023L47.4609-62.4023L71.2891-63.1836L62.207-55.2246L13.8184-6.73828C12.9395-5.85938 12.4512-4.73633 12.4512-3.66211C12.4512-1.31836 14.5508 0.878906 16.9922 0.878906C18.1152 0.878906 19.1895 0.488281 20.0684-0.439453L68.5547-48.877L76.6113-58.0078L75.7324-35.2051L75.7324-17.1387C75.7324-14.8438 77.7344-12.6953 80.127-12.6953C82.4707-12.6953 84.5703-14.6973 84.5703-17.334Z">
+                            </path>
+                        </g>
+                    </svg></button>
+                <button class="mr-5 w-9 h-6 text-xl text-center rounded-md hover:bg-slate-300 " onclick="showText('hidbtn')"><ion-icon
+                        name="ellipsis-horizontal-outline"></ion-icon></button>
+
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="md:w-[60vw] w-[90vw] mx-auto text-center mt-10">
+
+            <video class="w-10/12 md:w-8/12 lg:1/2  mx-auto"
+                src="https://www.icloud.com/system/icloud.com/current/static/fpo@2x.mp4" muted autoplay loop
+                playsinline></video>
+
+            <h1 class="font-bold   md:text-9xl  text-6xl  w-10/12 mx-auto " id="icloud">iCloud</h1>
+            <button
+                class=" bg-black text-white w-32 h-10  rounded-full text-lg font-semibold md:font-bold mt-28 md:mt-8">Sign
+                In</button>
+            <h1 class="md:w-8/12 lg:w-6/12 w-10/12 md mx-auto  text-2xl md:text-4xl font-semibold mt-8 text-slate-950">
+                The best place for all your photos, files, notes, mail, and more.</h1>
+        </div>
+    </section>
+
+    <section class="mt-28 " id="card-section">
+        <div class="lg:flex  justify-center " id="cards">
+            <div class=" pt-16 shadow-2xl rounded-2xl mx-auto lg:mx-6 bg-white card">
+                <img src="img/1.png" class="md:w-9/12  lg:w-5/6 w-5/6 mx-auto">
+                <h1 class="w-5/6 mx-auto font-semibold ext-xl md:text-2xl mt-14">Easily access apps and data from your
+                    iPhone on the web</h1>
+                <p class="w-5/6 mx-auto mt-3 text-lg md:text-lg leading-6 lg:leading-6 ">iCloud is essential for keeping
+                    personal information from your devices safe, up to date, and available wherever you are. At
+                    iCloud.com, you can access your photos, files, and more from any web browser. Changes you make will
+                    sync to your iPhone and other devices, so you’re always up to date.</p>
+            </div>
+
+            <div class="mt-12 lg:mt-0 pt-8 shadow-2xl  mx-auto lg:mx-6 rounded-2xl  bg-white card">
+                <img src="img/2.png" class="md:w-7/12  lg:w-8/12 w-9/12 mx-auto">
+                <h1 class="w-5/6 mx-auto font-semibold text-xl md:text-2xl mt-5">More storage plus additional features
+                    to protect your privacy</h1>
+                <p class="w-5/6 mx-auto mt-4 text-lg md:text-lg leading-6 lg:leading-6">Upgrade to iCloud+ to get more
+                    storage and additional features like iCloud Private Relay, Hide My Email, and HomeKit Secure Video.
+                    You can even share your subscription with your family. Learn more at <span
+                        class="text-sky-600">apple.com/icloud.</span> </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section
+        class="md:h-20 h-28 w-full bg-gray-100 pt-9 md:pt-0 md:flex md:justify-around md:items-center text-center  items-center text-xs text-slate-600">
+        <div class="flex justify-center">
+            <a href="#" class="border-gray-300 border-r w-24">System Status</a>
+
+            <a href="#" class="border-gray-300 border-r w-24 ml-2">Privacy Policy</a>
+
+            <a href="#" class="ml-2">Terms & Conditions</a>
+        </div>
+
+        <div class="mt-2 md:mt-0">
+            <p>Copyright © 2023 Apple Inc. All rights reserved.</p>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

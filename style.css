@@ -1,0 +1,73 @@
+#icloud{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 251, 251);
+}
+
+@media screen and  (min-width:768px) {
+    #cards{
+        width: 100%;
+        
+        height: 680px;
+        
+    }
+    
+    .card{
+        width: 670px;
+        height: 555px;
+        color: rgb(56, 55, 55);
+        background-color: rgb(250, 250, 250);
+
+    }
+    #card-section{
+        width: 100%;
+        height: 90em;
+    
+    }
+    
+}
+@media screen and  (min-width:1160px) {
+    #cards{
+        width: 100%;
+        height: 680px;
+        
+    }
+    
+    .card{
+        width: 500px;
+        height: 550px;
+
+    }
+    #card-section{
+        width: 100%;
+        height: 43em;
+    
+    }
+    
+}
+
+@media screen and  (max-width:768px) {
+    #cards{
+        width: 100%;
+        height: 680px;
+        
+    }
+    
+    .card{
+        width: 300px;
+        height: 545px;
+
+    }
+    #card-section{
+        width: 100%;
+        height: 80em;
+    }
+    
+}
+.hidbtn{
+display: none;
+}
